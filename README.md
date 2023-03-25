@@ -1,2 +1,2 @@
-# journey
+# Journey
 website with react

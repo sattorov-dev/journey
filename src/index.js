@@ -1,5 +1,12 @@
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 import React from "react";
 import ReactDOM from "react-dom";
 
-const text = <h1>Hello World!</h1>;
-ReactDOM.render(text, document.getElementById("root"))
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>, document.getElementById('root')
+);
+reportWebVitals();
